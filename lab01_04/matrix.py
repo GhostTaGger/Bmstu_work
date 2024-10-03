@@ -19,3 +19,15 @@ for step in range(1, end_n, step_n):
     y_vec.append(func(A_,B_))
 name = 'matrix multiplication'
 draw_graph(x_vec,y_vec,name)
+
+
+'''
+for i in range(n):
+    for j in range(n):
+        for k in range(n):
+            C[i, j] += A[i, k] * B[k, j]
+
+
+print("Результат матричного произведения C:")
+print(C)
+'''
